@@ -19,7 +19,7 @@ languageCode = "en"
   # title shown in home page (HTML format is supported)
   title = "Ashik uddin Ahmad"
   # subtitle shown in home page
-  subtitle = "Building Elegant Practicle Mobile Apps to Aid Lives"        
+  subtitle = "Building Elegant Practical Mobile Apps To Aid Lives"        
   # whether to show social links
   social = true
 
