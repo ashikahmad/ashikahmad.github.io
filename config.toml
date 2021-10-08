@@ -1,0 +1,46 @@
+baseURL = 'https://ashikahmad.github.io/'
+# languageCode = 'en-us'
+title = '👨‍💻 ASHIK'
+theme = "LoveIt"
+
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+
+[params.home.profile]
+  # URL of avatar shown in home page
+  avatarURL = "/images/fb-img.jpeg"
+  # title shown in home page (HTML format is supported)
+  title = "Ashik uddin Ahmad"
+  # subtitle shown in home page
+  subtitle = "Building Elegant Practicle Mobile Apps to Aid Lives"        
+  # whether to show social links
+  social = true
+
+[params.page.share]
+  enable = true
+  Facebook = true
+  Twitter = true
+  Linkedin = true
+  Email = true
+  GitHub = true
+
+[params.social]
+  Facebook = "ashikahmad"
+  Twitter = "ashik_ahmad"
+  Linkedin = "ashikahmad"
+  Email = "ashik.u.ahmad@gmail.com"
+  GitHub = "ashikahmad"
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
