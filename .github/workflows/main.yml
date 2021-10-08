@@ -1,10 +1,9 @@
-name: github pages
+name: Github Pages
 
 on:
   push:
     branches:
       - hugo  # Set a branch to deploy
-  pull_request:
 
 jobs:
   deploy:
@@ -26,7 +25,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
+        env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
           publish_dir: ./public
